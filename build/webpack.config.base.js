@@ -6,7 +6,7 @@ const path = require('path')
 
 module.exports = {
   resolve: {
-    extensions: ['.js','.vue','.json'],//导入这些文件不需要后缀
+    extensions: ['.js','.vue','.json','ts','tsx'],//导入这些文件不需要后缀
     alias: { //路径重命名
       'assets':utils.resolve('assets'),
       'static':utils.resolve('static'),
