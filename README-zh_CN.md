@@ -44,7 +44,6 @@ yarn add panda-framework
 ```javascript
 import Vue from 'vue'
 import Panda from 'panda-framework'
-import 'panda-framework/package/main.css'
 
 Vue.use(Panda)
 
