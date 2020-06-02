@@ -80,7 +80,7 @@ Supports all major modern browsers.
 Clone locally
 
 ```bash
-$ git clone https://github.com/panda-ui/panda-ui.git
+$ git clone https://github.com/chaorenluo/panda-ui
 $ cd panda-ui
 $ yarn install
 $ yarn start
@@ -103,8 +103,3 @@ $ yarn start
 - [ ] Globalization.
 - [ ] Mixed develop with typescript and JavaScript.
 
-## 🤝 Join Discussion Group
-
-Scan the QR code using [QQ](https://im.qq.com/) to join in discussion group
-
-<img alter="Discussion Group" src="https://github.com/panda-ui/panda-ui/blob/master/static/share.JPG?raw=true" width="250px" >

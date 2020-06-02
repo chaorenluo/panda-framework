@@ -76,7 +76,7 @@ Vue.component(Button.name, Button)
 本地Clone
 
 ```bash
-$ git clone https://github.com/panda-ui/panda-ui.git
+$ git clone https://github.com/chaorenluo/panda-ui
 $ cd panda-ui
 $ yarn install
 $ yarn start
@@ -99,9 +99,5 @@ $ yarn start
 - [ ] 国际化
 - [ ] Typescript 和 JavaScript混合开发
 
-## 🤝加入讨论群
 
-用[QQ](https://im.qq.com/) 扫描下方二维码加入群聊
-
-<img alter="Discussion Group" src="https://github.com/panda-ui/panda-ui/blob/master/static/share.JPG?raw=true" width="250px" >
 
