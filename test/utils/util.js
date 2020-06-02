@@ -1,7 +1,7 @@
 import Vue from 'vue/dist/vue.js';
-import Ninecat from '../../src/index.js';
+import Panda from '../../src/index.js';
 
-Vue.use(Ninecat);
+Vue.use(Panda);
 
 let id = 0;
 

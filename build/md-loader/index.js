@@ -8,9 +8,9 @@ const md = require('./config');
 module.exports = function(source) {
   const content = md.render(source);
 
-  const startTag = '<!--ninecat-demo:';
+  const startTag = '<!--panda-demo:';
   const startTagLen = startTag.length;
-  const endTag = ':ninecat-demo-->';
+  const endTag = ':panda-demo-->';
   const endTagLen = endTag.length;
 
   let componenetsString = '';

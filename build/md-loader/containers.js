@@ -12,7 +12,7 @@ module.exports = md => {
         const content = tokens[idx + 1].type === 'fence' ? tokens[idx + 1].content : '';
         return `<demo-block>
         ${description ? `<div>${md.render(description)}</div>` : ''}
-        <!--ninecat-demo: ${content}:ninecat-demo-->
+        <!--panda-demo: ${content}:panda-demo-->
         `;
       }
       return '</demo-block>';

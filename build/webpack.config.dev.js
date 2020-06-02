@@ -10,17 +10,17 @@ const HOST = 'localhost';
 const PORT = 8081;
 console.log(baseConfig)
 module.exports = merge(baseConfig, {
-  mode:'development',
+  mode: 'development',
   entry: path.resolve(__dirname, '../doc/index.js'),
   devServer: {
-    clientLogLevel:'warning',
+    clientLogLevel: 'warning',
     hot: true,
-    contentBase:'dist',
-    compress:true,
+    contentBase: 'dist',
+    compress: true,
     host: HOST,
     port: PORT,
     open: true,
-    overlay: {warnings: false,errors: true},
+    overlay: { warnings: false, errors: true },
     publicPath: '/',
     quiet: true
   },
@@ -43,9 +43,16 @@ module.exports = merge(baseConfig, {
       }, {
         test: /\.scss$/,
         use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader'
+          { loader: 'vue-style-loader' },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } },
+          {
+            loader: 'sass-resources-loader',
+            options: {
+              sourceMap: true,
+              resources: [path.resolve(__dirname, '../packages/theme/reset.scss'),]//???path.resolve?????
+            }
+          }
         ]
       }
     ]
@@ -54,14 +61,14 @@ module.exports = merge(baseConfig, {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template:'./doc/index.html',
+      template: './doc/index.html',
       filename: 'index.html',
-      favicon:'./doc/favicon.ico',
+      favicon: './doc/favicon.ico',
       inject: true
     }),
     new FriendlyErrorsWebpackPlugin({
       compilationSuccessInfo: {
-        messages:[
+        messages: [
           `
           You application is running here http://${HOST}:${PORT}
           Buildï¼šnpm run prod
@@ -70,7 +77,7 @@ module.exports = merge(baseConfig, {
         ],
         notes: ['Some additionnal notes to be displayed unpon successful compilation']
       },
-      onError: function(severity, errors){
+      onError: function (severity, errors) {
 
       },
       clearConsole: true,
