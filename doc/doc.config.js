@@ -12,13 +12,13 @@ const dataEntryString = localLang === 'en-US' ? 'Data Entry' : '数据录入';
 export default {
   headerConfig: {
     logo: {
-      href: 'https://panda-ui.github.io',
+      href: 'https://panda-framework.github.io',
       image: 'https://avatars3.githubusercontent.com/u/51054939?s=400&u=8d6342ba8bf5106086c26318ee290452501c6dff&v=4',
       title: 'Panda'
     },
     lang: 'zh-CN',
     versions: ['1.0.0', '1.1.0'],
-    githubLink: 'https://github.com/panda-ui/panda-ui',
+    githubLink: 'https://github.com/panda-framework/panda-framework',
     simulators: []
   },
   navConfig: [

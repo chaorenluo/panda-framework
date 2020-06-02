@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://panda-ui.github.io">
+  <a href="https://panda-framework.github.io">
     <img width="161" height="125" src="https://upload-images.jianshu.io/upload_images/8108267-b9d5a9dea5e57a79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
   </a>
 </p>
 
-<h1 align="center">panda-ui</h1>
+<h1 align="center">panda-framework</h1>
 
 <h3 align="center">一个清爽的Vue 2.0 UI Web框架</h3>
 
@@ -12,8 +12,8 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.com/panda-ui/panda-ui.svg?branch=master)](https://travis-ci.com/panda-ui/panda-ui)
-[![codecov](https://codecov.io/gh/panda-ui/panda-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/panda-ui/panda-ui)
+[![Build Status](https://travis-ci.com/panda-framework/panda-framework.svg?branch=master)](https://travis-ci.com/panda-framework/panda-framework)
+[![codecov](https://codecov.io/gh/panda-framework/panda-framework/branch/master/graph/badge.svg)](https://codecov.io/gh/panda-framework/panda-framework)
 ![MIT](https://img.shields.io/badge/license-MIT-000000.svg)
 ![webpack](https://img.shields.io/badge/webpack-4-blue.svg)
 ![vue](https://img.shields.io/badge/vue-2.6.10-green.svg)
@@ -21,7 +21,7 @@
 </div>
 
 
-<img style="height:100%;width:100%" src="https://github.com/panda-ui/panda-ui/blob/master/static/Screenshot_zh_new.png?raw=true"/>
+<img style="height:100%;width:100%" src="https://github.com/panda-framework/panda-framework/blob/master/static/Screenshot_zh_new.png?raw=true"/>
 
 
 简体中文 | [English](./README.md)
@@ -31,20 +31,20 @@
 通过npm
 
 ```bash
-npm install panda-ui --S
+npm install panda-framework --S
 ```
 通过yarn
 
 ```bash
-yarn add panda-ui
+yarn add panda-framework
 ```
 
 ## 🔨 快速开始
 
 ```javascript
 import Vue from 'vue'
-import Ninecat from 'panda-ui'
-import 'panda-ui/package/main.css'
+import Ninecat from 'panda-framework'
+import 'panda-framework/package/main.css'
 
 Vue.use(Ninecat)
 
@@ -52,7 +52,7 @@ Vue.use(Ninecat)
 import {
   Button
   // ...
-} from 'panda-ui'
+} from 'panda-framework'
 
 Vue.component(Button.name, Button)
 
@@ -68,7 +68,7 @@ Vue.component(Button.name, Button)
 
 ## 🔗 链接
 
-- [主页](https://chaorenluo.github.io/panda-ui/docs/index.html#/PButton)
+- [主页](https://chaorenluo.github.io/panda-framework/docs/index.html#/PButton)
 
 
 ## ⌨️ 开发
@@ -76,8 +76,8 @@ Vue.component(Button.name, Button)
 本地Clone
 
 ```bash
-$ git clone https://github.com/chaorenluo/panda-ui
-$ cd panda-ui
+$ git clone https://github.com/chaorenluo/panda-framework
+$ cd panda-framework
 $ yarn install
 $ yarn start
 ```

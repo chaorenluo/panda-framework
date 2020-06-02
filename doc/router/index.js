@@ -23,7 +23,7 @@ export const commonRoutes = [
     component: loadDoc(localLang, '/about')
   },
   {
-    path: '/panda-ui',
+    path: '/panda-framework',
     name: 'about',
     meta: {
       name: 'HomePage'
