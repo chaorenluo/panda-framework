@@ -68,8 +68,8 @@ Vue.component(Button.name, Button)
 
 ## 🔗 链接
 
-- [主页](https://panda-ui.github.io)
-- [贡献指南](./.github/CONTRIBUTING.zh-CN.md)
+- [主页](https://chaorenluo.github.io/panda-ui/docs/index.html#/PButton)
+
 
 ## ⌨️ 开发
 

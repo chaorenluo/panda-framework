@@ -72,8 +72,8 @@ Supports all major modern browsers.
 
 ## 🔗 Links
 
-- [Home page](https://panda-ui.github.io)
-- [Contribution Guide](./.github/CONTRIBUTING.en-US.md)
+- [Home page](https://chaorenluo.github.io/panda-ui/docs/index.html#/PButton)
+
 
 ## ⌨️ Development
 
