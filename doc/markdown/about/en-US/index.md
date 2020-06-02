@@ -43,18 +43,11 @@ yarn add  panda-framework
 import Vue from 'vue'
 import  Panda from ' panda-framework'
 // Introduce style files
-import ' panda-framework/package/main.css'
+
 
 Vue.use(Panda)
 
-// Or partially introduced
-import {
-  Button
-  // ...
-} from panda-framework'
 
-Vue.component(Button.name, Button)
-```
 
 ## Development Guide
 

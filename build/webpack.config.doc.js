@@ -47,7 +47,7 @@ module.exports = merge(baseConfig,{
         ]
       }, {
         test: /\.scss$/,
-        use: [
+         use: [
           { loader: 'vue-style-loader' },
           { loader: 'css-loader', options: { sourceMap: true } },
           { loader: 'sass-loader', options: { sourceMap: true } },

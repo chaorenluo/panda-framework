@@ -41,17 +41,11 @@ import Vue from 'vue'
 
 // 全局引入
 import Panda from 'panda-framework'
-// 引入样式文件
-import 'panda-framework/package/main.css'
+
 Vue.use(Panda)
 
-// 或部分引入
-import {
-  Button
-  // ...
-} from 'panda-framework'
-Vue.component(Button.name, Button)
-```
+
+
 
 ## 开发指南
 

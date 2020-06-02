@@ -1,6 +1,6 @@
 {
   "name": "panda-framework",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "A Vue.js 2.0 Web UI Toolkit",
   "main": "package/panda-framework.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "deepmerge": "^4.2.2",
+    "element-ui": "^2.13.2",
     "vue": "2.6.10"
   },
   "devDependencies": {

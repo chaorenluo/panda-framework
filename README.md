@@ -46,18 +46,12 @@ yarn add panda-framework
 
 ```javascript
 import Vue from 'vue'
-import Ninecat from 'panda-framework'
+import Panda from 'panda-framework'
 import 'panda-framework/package/main.css'
 
-Vue.use(Ninecat)
+Vue.use(Panda)
 
-// or
-import {
-  Button
-  // ...
-} from 'panda-framework'
 
-Vue.component(Button.name, Button)
 
 ```
 

@@ -21,10 +21,8 @@
 </template>
 
 <script>
-import waves from '../../waves/index';
 export default {
   name: 'PButton',
-  directives: { waves },
   props: {
     type: {
       type: String,
