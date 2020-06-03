@@ -56,7 +56,7 @@ export default {
     },
     currentGithubUrl () {
       const lang = sessionStorage.getItem('lang');
-      return `https://github.com/panda-framework/panda-framework/tree/master/doc/markdown/${this.currentPage}/${lang}/index.md`;
+      return `https://github.com/chaorenluo/panda-framework/tree/master/doc/markdown/${this.currentPage}/${lang}/index.md`;
     }
   }
 };
