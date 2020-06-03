@@ -11,10 +11,16 @@ button{
   border-radius: $btn-radius;
   border: 0;
   vertical-align: middle;
-
   font-size: $btn-font;
   line-height: $btn-line-height;
   cursor:pointer;
+  &.is-round{
+    border-radius: 50%;
+    min-width: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px;
+  }
 }
 .btn-primary{
   background: $btn-primary-bg;

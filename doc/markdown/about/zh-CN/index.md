@@ -44,7 +44,26 @@ import Panda from 'panda-framework'
 
 Vue.use(Panda)
 
+支持按需引入
+import {Button} from 'panda-framework'
+Vue.use(Button);
 
+需要安装
+npm install babel-plugin-component -D
+
+然后，将 .babelrc 修改为：
+{
+  "presets": [["es2015", { "modules": false }]],
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "panda-framework",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
+  ]
+}
 
 
 ## 开发指南

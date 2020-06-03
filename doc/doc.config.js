@@ -51,7 +51,7 @@ export default {
           groupName: baseComponentsString,
           list: [
             {
-              path: '/PButton',
+              path: '/button',
               title: 'Button'
             }
             // {

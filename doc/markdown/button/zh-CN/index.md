@@ -91,10 +91,10 @@ export default {
 :::
 
 ### 按钮加载中状态
-:::demo 按钮尺寸可以分为 lg md sm xs
+:::demo 
 ```html
 <template>
-  <p-button type="primary" loading >Default</p-button>
+  <p-button type="primary"   loading/>
   <p-button type="default" loading />
   <p-button type="link" loading />
   <p-button type="ghost" loading />
@@ -123,6 +123,48 @@ export default {
   <p-button type="subtle" disabled>
     subtle
   </p-button>
+   <p-button type="primary" >
+    <p-icon name="icon-bug-report" /> subtle
+  </p-button>
+</template>
+```
+:::
+
+
+### 自定义组合按钮
+
+:::demo 
+```html
+<template>
+  <p-button type="default"   >
+    <p-icon name="icon-qrcode" /> subtle
+  </p-button>
+  <p-button type="link" >
+   <p-icon name="icon-scan" /> subtle
+  </p-button>
+  <p-button type="ghost" >
+    <p-icon name="icon-cut" /> subtle
+  </p-button>
+  <p-button type="subtle" >
+    <p-icon name="icon-gift" /> subtle
+  </p-button>
+   <p-button type="primary" >
+    <p-icon name="icon-scan" /> 
+  </p-button>
+</template>
+```
+:::
+
+### 圆角按钮
+
+:::demo 
+```html
+<template>
+  <p-button type="primary" round icon="icon-qrcode"   />
+  <p-button type="primary" round  icon="icon-scan" />
+  
+  <p-button type="primary" round  icon="icon-gift" />
+  <p-button type="primary" round icon="icon-scan" />
 </template>
 ```
 :::
@@ -137,3 +179,4 @@ export default {
 | disabled    | 禁用状态 | Boolean     | false |
 | click    | 点击事件 | Function     |  |
 | size    | 按钮大小，可选值`lg`,`md`,`sm`,`xs` | String     |  |
+| round    | 圆角按钮 | Boolean     | false |

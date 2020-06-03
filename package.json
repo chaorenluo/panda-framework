@@ -1,6 +1,6 @@
 {
   "name": "panda-framework",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A Vue.js 2.0 Web UI Toolkit",
   "main": "lib/panda-framework.common.js",
   "scripts": {

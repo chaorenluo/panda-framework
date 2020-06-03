@@ -2,7 +2,7 @@
   <button
     type="button "
     :disabled="disabled"
-    :class="`btn ${btnType} ${btnSize} ${btnDisableds} ${btnLoading}`"
+    :class="`btn ${btnType} ${btnSize} ${btnDisableds} ${btnLoading} ${btnRound}`"
     @click="$emit('click')"
   >
     <span
@@ -14,9 +14,7 @@
       v-if="icon"
       :class="`${icon}`"
     />
-    <span>
-      <slot />
-    </span>
+    <slot />
   </button>
 </template>
 
@@ -43,6 +41,10 @@ export default {
     loading: {
       type: Boolean,
       default: false
+    },
+    round: {
+      type: Boolean,
+      default: false
     }
   },
   data () {
@@ -62,6 +64,9 @@ export default {
     },
     btnLoading () {
       return this.loading ? 'btn-loading' : '';
+    },
+    btnRound () {
+      return this.round ? 'is-round' : '';
     }
   },
   mounted () {
