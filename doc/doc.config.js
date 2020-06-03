@@ -18,7 +18,7 @@ export default {
     },
     lang: 'zh-CN',
     versions: ['1.0.0', '1.1.0'],
-    githubLink: 'https://github.com/panda-framework/panda-framework',
+    githubLink: 'https://github.com/chaorenluo/panda-framework',
     simulators: []
   },
   navConfig: [
