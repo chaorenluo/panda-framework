@@ -1,13 +1,12 @@
-import './../assets/font/iconfont.css';
-import pButton from '../packages/PButton';
-import pIcon from '../packages/PIcon';
-import pButtonGroup from '../packages/PButtonGroup';
+import Button from '../packages/button';
+import Icon from '../packages/icon';
+import ButtonGroup from '../packages/button-group';
 import locale from './locale/index';
 
 const components = {
-  pButton,
-  pButtonGroup,
-  pIcon
+  Button,
+  ButtonGroup,
+  Icon
 };
 
 const install = function (Vue, opts = {}) {
