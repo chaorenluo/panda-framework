@@ -1,12 +1,12 @@
 <template>
-  <i :class="'iconfont ' + name" />
+  <i :class="'pa-icon-' + icon" />
 </template>
 
 <script>
 export default {
-  name: 'PIcon',
+  name: 'PaIcon',
   props: {
-    name: {
+    icon: {
       type: String,
       default: ''
     }

@@ -27,9 +27,6 @@
         class="demo-block-control"
         @click="showMeta"
       >
-        <p-icon
-          :name="iconName"
-        />
         <span v-show="hovering">{{ hoveringText }}</span>
         <!-- Todo -->
         <!-- <span
@@ -48,7 +45,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 import hljs from 'highlight.js';
 export default {
   name: 'DemoBlock',
@@ -90,7 +87,7 @@ export default {
     }
   }
 };
-</script>
+</script >
 
 <style lang="scss" scoped>
 .grid{

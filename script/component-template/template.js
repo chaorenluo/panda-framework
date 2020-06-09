@@ -1,7 +1,7 @@
-import nComponentName from './src/index.vue';
+import ComponentName from './src/index.vue';
 
-nComponentName.install = function (Vue) {
-  Vue.component(nComponentName.name, nComponentName);
+ComponentName.install = function (Vue) {
+  Vue.component(ComponentName.name, ComponentName);
 };
 
-export default nComponentName;
+export default ComponentName;

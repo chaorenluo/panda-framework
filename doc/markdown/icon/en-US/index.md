@@ -1,5 +1,5 @@
 
-# picon 
+# icon 
 
 
 ## When To Use
@@ -12,7 +12,7 @@
 :::demo
 ```html
 <template>
-  <n-picon />
+  <n-icon />
 </template>
 ```
 :::

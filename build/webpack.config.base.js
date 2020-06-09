@@ -10,7 +10,8 @@ module.exports = {
     alias: { //路径重命名
       'assets':utils.resolve('assets'),
       'static':utils.resolve('static'),
-      'packages':utils.resolve('packages')
+      'packages':utils.resolve('packages'),
+      'utils':utils.resolve('src/utils')
     }
   },
   module: {

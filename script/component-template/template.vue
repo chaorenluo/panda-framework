@@ -1,11 +1,11 @@
 <template>
-  <div class="n-ComponentName">
+  <div class="ComponentName">
     ComponentName
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NComponentName'
+  name: 'ComponentName'
 };
 </script>

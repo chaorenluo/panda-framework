@@ -12,7 +12,7 @@ const dataEntryString = localLang === 'en-US' ? 'Data Entry' : '数据录入';
 export default {
   headerConfig: {
     logo: {
-      href: 'https://panda-framework.github.io',
+      href: 'https://github.com/chaorenluo/panda-framework',
       image: 'https://avatars3.githubusercontent.com/u/51054939?s=400&u=8d6342ba8bf5106086c26318ee290452501c6dff&v=4',
       title: 'Panda'
     },
@@ -38,106 +38,23 @@ export default {
     {
       name: componentsString,
       groups: [
-        // {
-        //   groupName: layoutString,
-        //   list: [
-        //     {
-        //       path: '/nGrid',
-        //       title: 'Grid'
-        //     }
-        //   ]
-        // },
         {
           groupName: baseComponentsString,
           list: [
             {
               path: '/button',
               title: 'Button'
+            },
+            {
+              path: '/icon',
+              title: 'Icon'
+            },
+            {
+              path: '/radio',
+              name: 'Radio'
             }
-            // {
-            //   path: '/nBadge',
-            //   title: 'Badge'
-            // },
-            // {
-            //   path: '/nLoader',
-            //   title: 'Loader'
-            // },
-            // {
-            //   path: '/nAlert',
-            //   name: 'Alert'
-            // },
-            // {
-            //   path: '/nMessage',
-            //   name: 'Message'
-            // },
-            // {
-            //   path: '/nModal',
-            //   name: 'Modal'
-            // },
-            // {
-            //   path: '/nDrawer',
-            //   name: 'Drawer'
-            // },
-            // {
-            //   path: '/nProgress',
-            //   name: 'Progress'
-            // },
-            // {
-            //   path: '/nCard',
-            //   name: 'Card'
-            // },
-            // {
-            //   path: '/nTooltip',
-            //   name: 'Tooltip'
-            // }
           ]
         }
-        // {
-        //   groupName: dataString,
-        //   list: [
-        //     {
-        //       path: '/nAvatar',
-        //       name: 'Avatar'
-        //     },
-        //     {
-        //       path: '/nTable',
-        //       name: 'Table'
-        //     },
-        //     {
-        //       path: '/nList',
-        //       name: 'List'
-        //     },
-        //     {
-        //       path: '/nPagination',
-        //       name: 'Pagination'
-        //     },
-        //     {
-        //       path: '/nTree',
-        //       name: 'Tree'
-        //     }
-        //   ]
-        // }
-        // {
-        //   groupName: dataEntryString,
-        //   list: [
-        //     {
-        //       path: '/nInput',
-        //       name: 'Input'
-        //     },
-        //     {
-        //       path: '/nUpload',
-        //       name: 'Upload'
-        //     },
-        //     {
-        //       path: '/nToggle',
-        //       name: 'Toggle'
-        //     },
-        //     {
-        //       path: '/nRate',
-        //       name: 'Rate'
-        //     }
-        //   ]
-        // }
       ]
     }]
 };

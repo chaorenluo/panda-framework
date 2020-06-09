@@ -1,12 +1,18 @@
-import Button from '../packages/button';
-import Icon from '../packages/icon';
-import ButtonGroup from '../packages/button-group';
+import Button from '../packages/button/index';
+import ButtonGroup from '../packages/button-group/index';
+import Icon from '../packages/icon/index';
+import Radio from '../packages/radio/index';
+import RadioGroup from '../packages/radio-group/index';
+import RadioButton from '../packages/radio-button/index';
 // import locale from './locale/index';
 
 const components = {
   Button,
   ButtonGroup,
-  Icon
+  Icon,
+  Radio,
+  RadioGroup,
+  RadioButton
 };
 
 const install = function (Vue, opts = {}) {

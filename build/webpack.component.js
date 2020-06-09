@@ -20,7 +20,7 @@ const webpackConfig = {
     alias: config.alias,
     modules: ['node_modules']
   },
-  // externals: config.externals,
+  externals: config.externals,
   performance: {
     hints: false
   },

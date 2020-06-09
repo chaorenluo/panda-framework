@@ -21,9 +21,11 @@ import nContainer from './components/nContainer';
 import config from './doc.config';
 import demoBlock from './components/nDemoBlock';
 import hljs from 'highlight.js/lib/highlight';
+import iconList from './components/iconList/index';
 import 'highlight.js/styles/github.css';
 import './style/index.scss';
 Vue.use(Panda);
+Vue.component(iconList.name, iconList);
 Vue.directive('highlight', function (el) {
   let blocks = el.querySelectorAll('pre code');
   blocks.forEach((block) => {
@@ -49,5 +51,6 @@ export default {
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   font-family: PingFang SC,Helvetica Neue,Arial,sans-serif;
+  min-width: 1440px;
 }
 </style>

@@ -69,4 +69,3 @@ npm install babel-plugin-component -D
 ## 开发指南
 
 - [Vue](https://cn.vuejs.org/index.html)
-- [贡献指南](https://github.com/panda-framework/panda-framework/blob/master/.github/CONTRIBUTING.zh-CN.md)

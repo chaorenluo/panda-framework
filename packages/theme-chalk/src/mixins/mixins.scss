@@ -1,0 +1,63 @@
+@import '../common/var.scss';
+@import "../mixins/config.scss";
+@import "../mixins/function.scss";
+@import "function";
+/* BEM
+ -------------------------- */
+
+//快Block
+@mixin b($block) {
+    $B: $namespace+"-"+$block !global;
+    //导入内容
+    .#{$B} {
+        @content
+    }
+};
+
+@mixin e($element) {
+    $E: $element !global;
+    $selector: &; 
+    $currentSelector: "";
+    @each $unit in $element {
+      $currentSelector: #{$currentSelector + "." + $B + $element-separator + $unit + ","};
+    }
+    //hitAllSpecialNestRule判断是不是修饰--，is-,伪类
+    @if hitAllSpecialNestRule($selector) {
+      @at-root {
+        #{$selector} {
+          #{$currentSelector} {
+            @content;
+          }
+        }
+      }
+    } @else {
+      @at-root {
+        #{$currentSelector} {
+          @content;
+        }
+      }
+    }
+  }
+
+//修饰Modifier
+@mixin m($modifier) {
+    $selector: &;
+    $currentSelector: '';
+    @each $unit in $modifier {
+        $currentSelector: #{$currentSelector + & + $modifier-separator + $unit + ","}
+    }
+    @at-root {
+        #{$currentSelector} {
+            @content;
+        }
+    }
+}
+
+@mixin when($state) {
+    //@at-root的内联选择器模式，将不会让你的选择器发生任何的嵌套，直接移除了父选择
+    @at-root {
+        &.#{$state-prefix + $state} {
+            @content;
+        }
+    }
+}
