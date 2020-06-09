@@ -1,8 +1,13 @@
 {
   "name": "panda-framework",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A Vue.js 2.0 Web UI Toolkit",
   "main": "lib/panda-framework.common.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --progress --history-api-fallback --config build/webpack.config.dev.js",
     "start": "npm run dev",
