@@ -10,19 +10,19 @@ body {
   margin: 0;
 }
 
-// a {
-//   color: $--color-primary;
-//   text-decoration: none;
+a {
+  color: $--color-primary;
+  text-decoration: none;
 
-//   &:hover,
-//   &:focus {
-//     color: mix($--color-white, $--color-primary, $--button-hover-tint-percent);
-//   }
+  &:hover,
+  &:focus {
+    color: mix($--color-white, $--color-primary, $--button-hover-tint-percent);
+  }
 
-//   &:active {
-//     color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
-//   }
-// }
+  &:active {
+    color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: $--color-text-regular;
