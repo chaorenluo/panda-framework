@@ -13,7 +13,6 @@
     :tabindex="tabIndex"
     @keydown.space.stop.prevent="value = isDisabled ? value : label"
   >
-    111
     <input
       v-model="value"
       class="pa-radio-button__orig-radio"

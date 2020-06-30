@@ -1,8 +1,13 @@
 {
+  "alert": "./packages/alert/index.js",
   "button": "./packages/button/index.js",
   "button-group": "./packages/button-group/index.js",
+  "checkbox": "./packages/checkbox/index.js",
+  "checkbox-button": "./packages/checkbox-button/index.js",
+  "checkbox-group": "./packages/checkbox-group/index.js",
   "icon": "./packages/icon/index.js",
   "radio": "./packages/radio/index.js",
   "radio-button": "./packages/radio-button/index.js",
-  "radio-group": "./packages/radio-group/index.js"
+  "radio-group": "./packages/radio-group/index.js",
+  "model": "./packages/model/index.js"
 }

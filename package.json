@@ -21,6 +21,7 @@
     "new": "node script/create-component.js",
     "clean": "rimraf lib && rimraf packages/*/lib && rimraf test/**/coverage",
     "pub": "npm publish",
+    "create-json":"node build/bin/build-component.js",
     "build:icon": "node build/bin/iconInit",
     "build:utils": "cross-env BABEL_ENV=utils babel src --out-dir lib --ignore src/index.js",
     "dist": "npm run clean && webpack --config build/webpack.conf.js && webpack --config build/webpack.common.js && webpack --config build/webpack.component.js && npm run build:utils && npm run build:theme",

@@ -52,6 +52,10 @@ export default {
             {
               path: '/radio',
               name: 'Radio'
+            },
+            {
+              path: '/checkbox',
+              name: 'Checkbox'
             }
           ]
         }

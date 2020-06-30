@@ -4,7 +4,10 @@ import Icon from '../packages/icon/index';
 import Radio from '../packages/radio/index';
 import RadioGroup from '../packages/radio-group/index';
 import RadioButton from '../packages/radio-button/index';
-// import locale from './locale/index';
+import Checkbox from '../packages/checkbox/index';
+import CheckboxGroup from '../packages/checkbox-group/index';
+import CheckboxButton from '../packages/checkbox-button/index';
+import Alert from '../packages/alert/index';
 
 const components = {
   Button,
@@ -12,14 +15,17 @@ const components = {
   Icon,
   Radio,
   RadioGroup,
-  RadioButton
+  RadioButton,
+  Checkbox,
+  CheckboxGroup,
+  CheckboxButton,
+  Alert
 };
 
 const install = function (Vue, opts = {}) {
   // locale.use(opts.locale);
   // locale.i18n(opts.i18n);
   Object.values(components).forEach(component => {
-    console.log(component.name);
     Vue.component(component.name, component);
   });
 };
@@ -32,4 +38,4 @@ export default {
   // i18n: locale.i18n,
   install,
   ...components
-};
+}; ;
