@@ -74,7 +74,7 @@ npm install babel-plugin-component -D
 
 ## 🔗 链接
 
-- [主页](https://chaorenluo.github.io/panda-framework/docs/index.html#/)
+- [主页](https://chaorenluo.github.io/panda-framework/docs/index.html#/about)
 
 
 ## ⌨️ 开发

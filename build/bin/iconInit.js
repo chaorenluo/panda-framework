@@ -18,8 +18,6 @@ nodes.forEach((node) => {
 
 classList.reverse(); // 希望按 css 文件顺序倒序排列
 
-console.log("---1",classList)
-
 try{
   fs.writeFile(path.resolve(__dirname, '../../doc/util/icon.json'), JSON.stringify(classList), () => {});
 }catch(err){
