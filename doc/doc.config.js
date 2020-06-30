@@ -43,19 +43,23 @@ export default {
           list: [
             {
               path: '/button',
-              title: 'Button'
+              title: 'Button 按钮'
             },
             {
               path: '/icon',
-              title: 'Icon'
+              title: 'Icon 图标'
             },
             {
               path: '/radio',
-              name: 'Radio'
+              name: 'Radio 单选框'
             },
             {
               path: '/checkbox',
-              name: 'Checkbox'
+              name: 'Checkbox 多选框'
+            },
+            {
+              path: '/Link',
+              name: 'Link 文字链接'
             }
           ]
         }

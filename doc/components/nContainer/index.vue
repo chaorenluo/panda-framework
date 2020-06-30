@@ -83,7 +83,7 @@ export default {
       }
 
       a {
-        color: #1989fa;
+        // color: #1989fa;
       }
 
       h1,

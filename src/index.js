@@ -7,7 +7,7 @@ import RadioButton from '../packages/radio-button/index';
 import Checkbox from '../packages/checkbox/index';
 import CheckboxGroup from '../packages/checkbox-group/index';
 import CheckboxButton from '../packages/checkbox-button/index';
-import Alert from '../packages/alert/index';
+import Link from '../packages/Link/index';
 
 const components = {
   Button,
@@ -19,7 +19,7 @@ const components = {
   Checkbox,
   CheckboxGroup,
   CheckboxButton,
-  Alert
+  Link
 };
 
 const install = function (Vue, opts = {}) {

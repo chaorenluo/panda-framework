@@ -359,3 +359,17 @@ $--checkbox-button-checked-border-color: $--color-primary !default;
 -------------------------- */
 $--select-border-color-hover: $--border-color-hover !default;
 $--select-disabled-border: $--disabled-border-base !default;
+
+
+/* Link
+--------------------------*/
+$--link-font-size:$--font-size-base !default;
+$--link-font-weight:$--font-weight-primary !default;
+$--link-default-font-color:$--color-text-regular !default;
+$--link-default-active-color:$--color-primary !default;
+$--link-disabled-font-color:$--color-text-placeholder !default;
+$--link-primary-font-color:$--color-primary !default;
+$--link-success-font-color:$--color-success !default;
+$--link-warning-font-color:$--color-warning !default;
+$--link-danger-font-color:$--color-danger !default;
+$--link-info-font-color:$--color-info !default;

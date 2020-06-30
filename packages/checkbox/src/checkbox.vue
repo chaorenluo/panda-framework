@@ -110,7 +110,6 @@ export default {
       },
 
       set (val) {
-        console.log('2---');
         if (this.isGroup) {
           this.isLimitExceeded = false;
           (this._checkboxGroup.min !== undefined &&
