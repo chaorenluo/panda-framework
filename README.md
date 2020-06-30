@@ -1,16 +1,6 @@
 <p align="center">
   <a href="https://panda-framework.github.io">
-  <div style="    display: flex;
-    justify-content: center;">
-     <div style="   background-repeat: no-repeat	;
-  transition: background-color 0.1s ease-out;
-  background-position: 50% bottom,50% bottom;
-  width: 278px;
-  height: 248px;
-  margin-bottom: 40px;   background-image: url(https://tinypng.com/images/apng/grass.png), url(https://tinypng.com/images/apng/panda-waving.png);
-"></div>
-  
-  </div>
+    <img width="191"  src="https://tinypng.com//images/pro/panda-pro.png" />
   </a>
 </p>
 
@@ -29,7 +19,6 @@
 ![vue](https://img.shields.io/badge/vue-2.6.10-green.svg)
 
 </div>
-
 
 
 
