@@ -5,78 +5,77 @@ $typeMap:(
   primary:$--link-primary-font-color,
   danger:$--link-danger-font-color,
   success:$--link-success-font-color,
-  warning:$--link-warning-font-color, 
+  warning:$--link-warning-font-color,
   info:$--link-info-font-color
 );
 
-@include b(link){
+@include b(link) {
+  position: relative;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  vertical-align:center;
-  position: relative;
-  text-decoration: none;
-  outline: none;
-  cursor: pointer;
   padding: 0;
   font-size: $--link-font-size;
   font-weight: $--link-font-weight;
+  text-decoration: none;
+  vertical-align: center;
+  cursor: pointer;
+  outline: none;
 
-  @include when(underline){
-    &:hover:after{
-      content:"";
+  @include when(underline) {
+    &:hover::after {
       position: absolute;
-      left: 0;
       right: 0;
-      height: 0;
       bottom: 0;
+      left: 0;
+      height: 0;
+      content: "";
       border-bottom: 1px solid $--link-default-active-color;
     }
   }
 
-  @include when(disabled){
+  @include when(disabled) {
     cursor: not-allowed;
   }
-
-  & [class*="pa-icon-"]{
-      &+span{
-        margin-left: 5px;
-      }
+  & [class*="pa-icon-"] {
+    & + span {
+      margin-left: 5px;
+    }
   }
-
-  &.pa-link--default{
+  &.pa-link--default {
     color: $--link-default-font-color;
-    &:hover{
+    &:hover {
       color: $--link-default-active-color;
     }
-    &:after{
+    &::after {
       border-color: $--link-default-active-color;
     }
-    @include when(disabled){
+
+    @include when(disabled) {
       color: $--link-disabled-font-color;
     }
   }
 
-  @each $type, $primaryColor in $typeMap{
+  @each $type, $primaryColor in $typeMap {
     &.pa-link--#{$type} {
       color: $primaryColor;
-      &:hover{
+      &:hover {
         color: mix($primaryColor, $--color-white, 80%);
       }
-      &:after{
+      &::after {
         border-color: $primaryColor;
       }
-      @include when(disabled){
-        color: mix($primaryColor, $--color-white, 50%)
+
+      @include when(disabled) {
+        color: mix($primaryColor, $--color-white, 50%);
       }
-      @include when(underline){
-        &:hover:after{
+
+      @include when(underline) {
+        &:hover::after {
           border-color: $primaryColor;
         }
       }
     }
-  }  
-
-  
+  }
 }

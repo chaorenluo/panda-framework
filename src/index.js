@@ -8,6 +8,7 @@ import Checkbox from '../packages/checkbox/index';
 import CheckboxGroup from '../packages/checkbox-group/index';
 import CheckboxButton from '../packages/checkbox-button/index';
 import Link from '../packages/Link/index';
+import InputNumber from '../packages/InputNumber/index';
 
 const components = {
   Button,
@@ -19,7 +20,8 @@ const components = {
   Checkbox,
   CheckboxGroup,
   CheckboxButton,
-  Link
+  Link,
+  InputNumber
 };
 
 const install = function (Vue, opts = {}) {

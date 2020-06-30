@@ -43,7 +43,7 @@ function createDocDir () {
 
 function createVueFile (subRoot) {
   let vueTemplate = fs.readFileSync(path.join(__dirname, './component-template/template.vue'), 'utf8');
-  let className = 'pa' + componentName;
+  let className = 'Pa' + componentName;
   let vueContent = vueTemplate.replace(/ComponentName/g, className);
   vueContent = vueContent.replace(/ComponentName/g, componentName);
   let vueTargetFilePath = path.join(__dirname, subRoot, 'src', 'index.vue');

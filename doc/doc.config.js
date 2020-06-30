@@ -60,6 +60,10 @@ export default {
             {
               path: '/Link',
               name: 'Link 文字链接'
+            },
+            {
+              path: '/InputNumber',
+              name: 'InputNumber 计数器'
             }
           ]
         }

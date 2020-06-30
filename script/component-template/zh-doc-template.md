@@ -13,7 +13,7 @@
 :::demo
 ```html
 <template>
-  <n-componentName />
+  <pa-componentName />
 </template>
 ```
 :::

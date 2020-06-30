@@ -1,0 +1,42 @@
+@import "mixins/mixins.scss";
+@import "common/var";
+@import "Input";
+
+@include b(input-number) {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  line-height: #{$--input-height - 2};
+  .pa-input {
+    display: block;
+    &__inner {
+      padding-right: #{$--input-height + 10};
+      padding-left: #{$--input-height + 10};
+      text-align: center;
+      -webkit-appearance: none;
+    }
+  }
+
+  @include e((increase,decrease)) {
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    width: $--input-height;
+    height: auto;
+    font-size: 13px;
+    color: $--color-text-regular;
+    text-align: center;
+    cursor: pointer;
+    background: $--background-color-base;
+    &:hover {
+      color: $--color-primary;
+      &:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled) {
+        border-color: $--input-focus-border;
+      }
+    }
+    &.is-disabled {
+      color: $--disabled-color-base;
+      cursor: not-allowed;
+    }
+  }
+}

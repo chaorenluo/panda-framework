@@ -8,5 +8,7 @@
   "radio": "./packages/radio/index.js",
   "radio-button": "./packages/radio-button/index.js",
   "radio-group": "./packages/radio-group/index.js",
-  "Link": "./packages/Link/index.js"
+  "Link": "./packages/Link/index.js",
+  "InputNumber": "./packages/InputNumber/index.js",
+  "Input": "./packages/Input/index.js"
 }
