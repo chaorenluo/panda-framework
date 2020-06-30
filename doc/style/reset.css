@@ -167,3 +167,13 @@ button, input, select, textarea {
     padding: 0 12px;
   }
 }
+
+.panda-logo{
+  background-image: url(../image/grass.png)	, url(../image/panda-waving.png);
+  background-repeat: no-repeat	;
+  transition: background-color 0.1s ease-out;
+  background-position: 50% bottom,50% bottom;
+  width: 278px;
+  height: 248px;
+  margin-bottom: 40px;
+}

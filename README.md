@@ -1,6 +1,16 @@
 <p align="center">
   <a href="https://panda-framework.github.io">
-    <img width="161" height="125" src="https://upload-images.jianshu.io/upload_images/8108267-b9d5a9dea5e57a79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+  <div style="    display: flex;
+    justify-content: center;">
+     <div style="   background-repeat: no-repeat	;
+  transition: background-color 0.1s ease-out;
+  background-position: 50% bottom,50% bottom;
+  width: 278px;
+  height: 248px;
+  margin-bottom: 40px;   background-image: url(https://tinypng.com/images/apng/grass.png), url(https://tinypng.com/images/apng/panda-waving.png);
+"></div>
+  
+  </div>
   </a>
 </p>
 
@@ -19,9 +29,6 @@
 ![vue](https://img.shields.io/badge/vue-2.6.10-green.svg)
 
 </div>
-
-
-<img style="height:100%;width:100%" src="https://github.com/panda-framework/panda-framework/blob/master/static/Screenshot_zh_new.png?raw=true"/>
 
 
 
